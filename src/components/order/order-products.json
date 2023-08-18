@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_order_order_products",
+  "info": {
+    "displayName": "Order Products",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "total_amount": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "total_item": {
+      "type": "integer",
+      "required": true
+    },
+    "discount_amount": {
+      "type": "decimal",
+      "required": true
+    },
+    "discount_code": {
+      "type": "string",
+      "required": true
+    },
+    "subtotal": {
+      "type": "decimal",
+      "required": true
+    },
+    "Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "order.order-product-item"
+    }
+  }
+}

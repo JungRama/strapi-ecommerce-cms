@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order_id": {
+      "type": "uid",
+      "required": true
+    },
+    "payment_status": {
+      "type": "enumeration",
+      "enum": [
+        "UNPAID",
+        "PAID",
+        "ONPROCESS"
+      ],
+      "default": "UNPAID",
+      "required": true
+    },
+    "shipping_status": {
+      "type": "enumeration",
+      "enum": [
+        "WAITING",
+        "TRANSIT",
+        "RECEIVED"
+      ],
+      "default": "WAITING",
+      "required": true
+    },
+    "customer_contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "order.order-contact"
+    },
+    "products": {
+      "type": "component",
+      "repeatable": false,
+      "component": "order.order-products"
+    }
+  }
+}

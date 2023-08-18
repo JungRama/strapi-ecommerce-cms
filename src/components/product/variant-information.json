@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_product_variant_informations",
+  "info": {
+    "displayName": "Variant Information",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "variant_name": {
+      "type": "string",
+      "required": true
+    },
+    "variant_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "variant_price": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    }
+  }
+}

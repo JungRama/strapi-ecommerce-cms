@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_order_order_product_items",
+  "info": {
+    "displayName": "Order Product Item",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "total": {
+      "type": "decimal",
+      "required": true
+    },
+    "variant": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
