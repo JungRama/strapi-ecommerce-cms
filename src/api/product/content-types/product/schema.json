@@ -49,15 +49,22 @@
       "target": "api::brand.brand",
       "inversedBy": "products"
     },
-    "categories": {
+    "category": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::category.category"
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
     },
     "slug": {
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "collections": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::collection.collection",
+      "inversedBy": "products"
     }
   }
 }

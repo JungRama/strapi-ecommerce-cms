@@ -11,17 +11,6 @@
       "type": "string",
       "required": true
     },
-    "variant_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "variant_price": {
       "type": "decimal",
       "required": true,

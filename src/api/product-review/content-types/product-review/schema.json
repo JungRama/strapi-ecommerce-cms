@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_reviews",
+  "info": {
+    "singularName": "product-review",
+    "pluralName": "product-reviews",
+    "displayName": "Product Review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "review": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "show_review": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

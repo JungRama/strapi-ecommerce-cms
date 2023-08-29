@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "featured_sneakers",
+  "info": {
+    "singularName": "featured-sneaker",
+    "pluralName": "featured-sneakers",
+    "displayName": "Featured Sneaker"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

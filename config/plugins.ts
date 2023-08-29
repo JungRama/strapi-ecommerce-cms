@@ -11,4 +11,22 @@ module.exports = ({ env }) => ({
       },
     }
   },
+  email: {
+		config: {
+		  provider: 'nodemailer',
+		  providerOptions: {
+        host: 'sandbox.smtp.mailtrap.io',
+        port: 2525,
+        auth: {
+          user: 'b249af88137354',
+          pass: '5004844beadab0',
+        },
+        ignoreTLS: false,
+		  },
+		  settings: {
+        defaultFrom: 'info@shoes.com',
+        defaultReplyTo: 'info@shoes.com',
+		  },
+		},
+	},
 });
