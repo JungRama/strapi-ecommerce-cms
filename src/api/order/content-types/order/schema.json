@@ -16,16 +16,6 @@
       "type": "uid",
       "required": true
     },
-    "payment_status": {
-      "type": "enumeration",
-      "enum": [
-        "UNPAID",
-        "PAID",
-        "ONPROCESS"
-      ],
-      "default": "UNPAID",
-      "required": true
-    },
     "shipping_status": {
       "type": "enumeration",
       "enum": [
@@ -45,6 +35,40 @@
       "type": "component",
       "repeatable": false,
       "component": "order.order-products"
+    },
+    "shipping_id": {
+      "type": "string"
+    },
+    "rate_id": {
+      "type": "string"
+    },
+    "shipping_name": {
+      "type": "string"
+    },
+    "stripe_id": {
+      "type": "string"
+    },
+    "stripe_url": {
+      "type": "text"
+    },
+    "stripe_request": {
+      "type": "json"
+    },
+    "stripe_response_webhook": {
+      "type": "json"
+    },
+    "subtotal": {
+      "type": "decimal"
+    },
+    "shipping_price": {
+      "type": "decimal"
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "payment_status": {
+      "type": "string",
+      "required": true
     }
   }
 }

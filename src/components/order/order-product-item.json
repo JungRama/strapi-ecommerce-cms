@@ -2,7 +2,8 @@
   "collectionName": "components_order_order_product_items",
   "info": {
     "displayName": "Order Product Item",
-    "icon": "arrowRight"
+    "icon": "arrowRight",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -26,6 +27,9 @@
     "variant": {
       "type": "string",
       "required": false
+    },
+    "product_name": {
+      "type": "string"
     }
   }
 }

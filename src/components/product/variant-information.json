@@ -15,6 +15,26 @@
       "type": "decimal",
       "required": true,
       "min": 0
+    },
+    "length": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "width": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "height": {
+      "type": "integer",
+      "default": 1,
+      "required": true
+    },
+    "weight": {
+      "type": "integer",
+      "required": true,
+      "default": 1
     }
   }
 }
