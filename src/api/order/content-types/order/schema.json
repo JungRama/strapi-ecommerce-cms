@@ -16,16 +16,6 @@
       "type": "uid",
       "required": true
     },
-    "shipping_status": {
-      "type": "enumeration",
-      "enum": [
-        "WAITING",
-        "TRANSIT",
-        "RECEIVED"
-      ],
-      "default": "WAITING",
-      "required": true
-    },
     "customer_contact": {
       "type": "component",
       "repeatable": false,
@@ -69,6 +59,24 @@
     "payment_status": {
       "type": "string",
       "required": true
+    },
+    "shipping_label": {
+      "type": "json"
+    },
+    "tracking_url": {
+      "type": "text"
+    },
+    "label_image": {
+      "type": "text"
+    },
+    "tracking_code": {
+      "type": "string"
+    },
+    "order_secret": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
     }
   }
 }

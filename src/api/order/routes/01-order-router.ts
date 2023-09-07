@@ -19,6 +19,21 @@ module.exports = {
       method: 'POST',
       path: '/orders/checkout/webhook-stripe',
       handler: 'order.webhookStripe',
-    }
+    },
+    {
+      method: 'GET',
+      path: '/orders/transaction/:code',
+      handler: 'order.getOrderWithCode',
+    },
+    {
+      method: 'GET',
+      path: '/orders/me/transaction',
+      handler: 'order.getMyOrder',
+    },
+    {
+      method: 'GET',
+      path: '/orders/me/transaction/:code',
+      handler: 'order.getOrderById',
+    },
   ]
 }
