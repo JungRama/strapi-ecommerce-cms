@@ -1,57 +1,51 @@
-# 🚀 Getting started with Strapi
+# Starter ecommerce Integration for NextJS and Strapi
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+![Cover](/public/github/cover.png)
 
-### `develop`
+Welcome to the Starter eCommerce Integration for NextJS and Strapi! This project is designed to help you kickstart your eCommerce website development by integrating the Next.js framework with the Strapi headless CMS. With this starter, you can build a fast, modern, and fully customizable eCommerce site tailored to your specific needs.
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+## Frontend
 
-```
-npm run develop
-# or
-yarn develop
-```
+The frontend of this project is built using Next.js, a powerful and versatile framework for building modern web applications. If you'd like to explore and collaborate on the codebase, you can check out the repository by following this [link](https://github.com/JungRama/strapi-ecommerce-nextjs)
 
-### `start`
+## Features
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+- **Next.js Framework:** A powerful and versatile React framework for building server-rendered and static web applications.
+- **Strapi Headless CMS:** A flexible and open-source content management system, serving as the backend for your eCommerce content.
+- **Fully Customizable:** Tailor the starter to your specific eCommerce requirements, from product listings to checkout processes.
+- **Product Catalog:** Create, update, and manage product listings and categories seamlessly.
+- **Order Management:** Manage customer orders and track order status.
+- **Authentication and User Management:** Easily implement user registration, authentication, and profile management.
+- **Responsive Design:** Built with mobile-first design principles, ensuring a great user experience on all devices.
+- **Stripe Integration:** Easily integrate Stripe for processing payments securely.
+- **EasyPost Integration:** Utilize EasyPost for efficient shipping and tracking of orders.
 
-```
-npm run start
-# or
-yarn start
-```
+## Screenshoot
 
-### `build`
+![Screenshoot](/public/github/screenshoot-1.png)
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+<details>
+  <summary>Order Track Screenshoot</summary>
+  
+  ![Screenshoot](/public/github/screenshoot-2.png)
+</details>
+<details>
+  <summary>Order Page Form Schema</summary>
 
-```
-npm run build
-# or
-yarn build
-```
+![Screenshoot](/public/github/screenshoot-3.png)
 
-## ⚙️ Deployment
+</details>
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+## Getting Started
 
-## 📚 Learn more
+To get started, follow these steps:
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+1. Clone this repository to your local machine.
+2. Install the required dependencies.
+3. Copy .env.example and fill the information.
+4. Start the application.
+5. Open your browser and navigate to `http://localhost:1337` to access the web.
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+## License
 
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
