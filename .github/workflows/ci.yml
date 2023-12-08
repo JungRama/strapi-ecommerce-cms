@@ -32,8 +32,8 @@ jobs:
 
       - name: Install Depedencies
         run: |
-          pnpm install
+          npm install
 
-      # - name: Build
-      #   run: |
-      #     pnpm run build
+      - name: Build
+        run: |
+          npm run build
