@@ -32,6 +32,6 @@ jobs:
 
       - name: Install & Build
         run: |
-          cd /home/sneakpeaks/htdocs/sneakpeaks.jungrama.com
+          pwd
           npm install
           npm run build
