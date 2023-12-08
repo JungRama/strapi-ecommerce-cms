@@ -30,10 +30,8 @@ jobs:
           nvm install 18.0.0
           nvm use 18.0.0
 
-      - name: Install Depedencies
+      - name: Install & Build
         run: |
+          cd /home/sneakpeaks/htdocs/sneakpeaks.jungrama.com
           npm install
-
-      - name: Build
-        run: |
           npm run build
