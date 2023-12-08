@@ -4,9 +4,9 @@
 
 Welcome to the Starter eCommerce Integration for NextJS and Strapi! This project is designed to help you kickstart your eCommerce website development by integrating the Next.js framework with the Strapi headless CMS. With this starter, you can build a fast, modern, and fully customizable eCommerce site tailored to your specific needs.
 
-Demo Admin URL: https://sneakpeaks.jungrama.com/admin/
-Email: storeadmin@example.com
-Password: Password123
+Demo Admin URL: https://sneakpeaks.jungrama.com/admin/ <br />
+Email: storeadmin@example.com <br />
+Password: Password123 <br />
 
 ## Frontend
 
