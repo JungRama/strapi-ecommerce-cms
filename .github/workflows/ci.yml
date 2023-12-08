@@ -30,9 +30,9 @@ jobs:
           nvm install 18.0.0
           nvm use 18.0.0
 
-      # - name: Install Depedencies
-      #   run: |
-      #     pnpm install
+      - name: Install Depedencies
+        run: |
+          pnpm install
 
       # - name: Build
       #   run: |
