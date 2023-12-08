@@ -21,7 +21,7 @@ jobs:
           port: 22
           script: |
             cd /home/sneakpeaks/htdocs/sneakpeaks.jungrama.com
-            git pull origin main
+            git pull origin master
             git status
 
       - name: Install Node.js
@@ -30,9 +30,9 @@ jobs:
           nvm install 18.0.0
           nvm use 18.0.0
 
-      - name: Install Depedencies
-        run: |
-          pnpm install
+      # - name: Install Depedencies
+      #   run: |
+      #     pnpm install
 
       # - name: Build
       #   run: |
